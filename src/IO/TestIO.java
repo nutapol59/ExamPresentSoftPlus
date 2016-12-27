@@ -62,7 +62,7 @@ public class TestIO {
         Reader reader=null;
         try {
             reader = new FileReader("/home/nbkf/MyProject/ExTest/src/IO/input.txt");
-            writer = new FileWriter("/home/nbkf/MyProject/ExTest/src/IO/outputChar.txt",true);
+            writer = new FileWriter("/home/nbkf/MyProject/ExTest/src/IO/outputChar.txt",true); //true is append
 
             int data;
             while ((data = reader.read()) != -1){
@@ -97,7 +97,7 @@ public class TestIO {
 
             while ((data = bufferedReader.readLine()) != null){
                 System.out.println("String : --> : " + data);
-               bufferedWriter.write(data);
+                bufferedWriter.write(data);
 
                 bufferedWriter.append('\n'); //append new line
             }
