@@ -61,17 +61,17 @@ public class TestCollection {
 //            System.out.println(i);
 //        }
 
-        Iterator<Integer> integerIterator = set.iterator();
+//        Iterator<Integer> integerIterator = set.iterator();
 //        for(; integerIterator.hasNext();){
 //            System.out.println(integerIterator.next());
 //        }
 
-        while (integerIterator.hasNext()){
-            Integer i = integerIterator.next();
-            if(i <  4){
-                System.out.println(i);
-            }
-        }
+//        while (integerIterator.hasNext()){
+//            Integer i = integerIterator.next();
+//            if(i <  4){
+//                System.out.println(i);
+//            }
+//        }
 
 
     }
@@ -86,17 +86,17 @@ public class TestCollection {
         map.put(3,"Keng");
         map.put(4,"Guy");
 
-        Iterator<Integer> itr = map.keySet().iterator();
-        while (itr.hasNext()){
-            Integer key = itr.next();
-            String val = (String)map.get(key);
-            System.out.println(key +" : "+val);
-        }
-
-        for (Map.Entry<Integer,String> entry : map.entrySet()) {
-            Integer key = entry.getKey();
-            String value = entry.getValue();
-            System.out.println(key + ":" + value);
-        }
+//        Iterator<Integer> itr = map.keySet().iterator();
+//        while (itr.hasNext()){
+//            Integer key = itr.next();
+//            String val = (String)map.get(key);
+//            System.out.println(key +" : "+val);
+//        }
+//
+//        for (Map.Entry<Integer,String> entry : map.entrySet()) {
+//            Integer key = entry.getKey();
+//            String value = entry.getValue();
+//            System.out.println(key + ":" + value);
+//        }
     }
 }
